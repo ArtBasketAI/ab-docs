@@ -24,8 +24,3 @@ Thumbs.db
 *.tmp
 *.bak
 *.log
-
-# Private files
-config.yaml
-config.toml
-config.json

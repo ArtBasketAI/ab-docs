@@ -1,0 +1,33 @@
+baseURL: "https://docs.artbasket.ai/"
+title: "ArtBasket Documentation"
+theme: "hugo-book"
+
+# Book configuration
+disablePathToLower: true
+enableGitInfo: true
+
+# Needed for mermaid/katex shortcodes
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 1
+
+# Menu configuration
+menu:
+  after:
+    - name: "GitHub"
+      url: "https://github.com/ArtBasketAI/ab-docs"
+      weight: 10
+
+# Site parameters
+params:
+  BookTheme: "light"
+  BookToC: true
+  BookSection: "docs"
+  BookRepo: "https://github.com/ArtBasketAI/ab-docs"
+  BookEditPath: "edit/main"
+  BookDateFormat: "January 2, 2006"
+  BookSearch: true
+  BookComments: false  # Set to true if you want to enable comments
