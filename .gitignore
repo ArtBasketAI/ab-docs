@@ -1,0 +1,31 @@
+# Hugo generated files
+/public/
+/resources/_gen/
+
+# Hugo cache
+/hugo_cache/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.sublime*
+*.swp
+*.swo
+*.vscode
+*.idea/
+*.iml
+
+# Node modules (if you use them)
+/node_modules/
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Private files
+config.yaml
+config.toml
+config.json
