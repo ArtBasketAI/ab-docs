@@ -1,0 +1,7 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Artbasket Documentation"
+theme = "hugo-book"
+
+[params]
+  BookRepo = "https://github.com/alex-shpak/hugo-book"
