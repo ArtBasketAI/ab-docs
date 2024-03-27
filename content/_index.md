@@ -9,7 +9,7 @@ weight: 1
 # bookSearchExclude: false
 ---
 
-# Artbasket Documentation
+## [Artbasket](https://artbasket.ai) Documentation
 
 This subdomains host the design, technical and business documentation for [artbasket.ai](https://artbasket.ai) site
 
