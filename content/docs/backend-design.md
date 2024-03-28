@@ -40,15 +40,29 @@ The backend provides a set of RESTful API endpoints to support various functiona
   ```
 
 - **Response:**
-  - Success: `{ "success": true, "user": { "id": 1, "name": "John Doe", "email": "user@example.com" } }`
-  - Failure: `{ "success": false, "message": "Invalid credentials" }`
+
+  - Success:  
+
+  ```bash
+  { "success": true, "user": { "id": 1, "name": "John Doe", "email": "user@example.com" } }
+  ```
+
+  - Failure:
+
+  ```bash
+   { "success": false, "message": "Invalid credentials" }
+  ```
 
 ### Projects
 
 #### GET /api/projects
 
 - **Description:** Retrieves a list of projects.
-- **Response:** An array of projects, e.g., `[ { "id": 1, "title": "Project One", "imageUrl": "/assets/project1.png" }, ... ]`.
+- **Response:** An array of projects, e.g.,
+
+  ```bash
+    [ { "id": 1, "title": "Project One", "imageUrl": "/assets/project1.png" }, ... ]
+  ```
 
 ### Comic Generation
 
@@ -64,7 +78,11 @@ The backend provides a set of RESTful API endpoints to support various functiona
   }
   ```
 
-- **Response:** `{ "storyId": 123, "completeStory": "Sample story (Processed to 100 characters)", "characters": [ ... ] }`.
+- **Response:**
+
+  ```bash
+    { "storyId": 123, "completeStory": "Sample story (Processed to 100 characters)", "characters": [ ... ] }
+  ```
 
 ### Comic Details
 
@@ -72,7 +90,11 @@ The backend provides a set of RESTful API endpoints to support various functiona
 
 - **Description:** Retrieves details of a specific comic.
 - **URL Parameter:** `storyId`
-- **Response:** `{ "completeStory": "This is the complete story for storyId 123.", "characters": [ ... ] }`.
+- **Response:**
+
+  ```bash
+  { "completeStory": "This is the complete story for storyId 123.", "characters": [ ... ] }
+  ```
 
 ### Comic Storyboard
 
@@ -80,7 +102,11 @@ The backend provides a set of RESTful API endpoints to support various functiona
 
 - **Description:** Retrieves storyboard pages for a comic.
 - **Query Parameter:** `pages` (optional, default is 10)
-- **Response:** `{ "pagesData": [ ... ] }`.
+- **Response:**
+
+ ```bash
+ { "pagesData": [ ... ] }
+ ```
 
 ### Comic Panels
 
@@ -88,7 +114,11 @@ The backend provides a set of RESTful API endpoints to support various functiona
 
 - **Description:** Retrieves data for a specific comic panel.
 - **URL Parameter:** `id`
-- **Response:** `{ "id": "1", "content": "Content for panel 1", "imageUrl": "/assets/landscape.webp", "tags": "Tag1, Tag2", "style": "Comic", "characters": "Character1, Character2" }`.
+- **Response:**
+
+  ```bash
+  { "id": "1", "content": "Content for panel 1", "imageUrl": "/assets/landscape.webp", "tags": "Tag1, Tag2", "style": "Comic", "characters": "Character1, Character2" }
+  ```
 
 ## Conclusion
 

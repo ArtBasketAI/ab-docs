@@ -8,7 +8,7 @@ weight: 1
 # bookComments: false
 # bookSearchExclude: false
 ---
-# Figma for ArtBasket Wireframing
+## Figma for ArtBasket Wireframing
 
 ## Introduction
 

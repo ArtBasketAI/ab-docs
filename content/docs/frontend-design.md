@@ -9,7 +9,7 @@ weight: 1
 # bookSearchExclude: false
 ---
 
-# ArtBasket Frontend Design Documentation
+## ArtBasket Frontend Design Documentation
 
 ## Introduction
 

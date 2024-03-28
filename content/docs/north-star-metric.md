@@ -11,7 +11,7 @@ bookToc: true
 
 ## North Star Metric
 
- ***Average Number of Panels Generated/Creator/Month***
+> Average Number of Panels Generated/Creator/Month
 
 ### What is a panel?
 
@@ -19,7 +19,7 @@ In a comic book, a panel is a distinct segment of the page containing an illustr
 
 #### Breadth
 
-***Number of New Creators***
+> Number of New Creators
 
 **Marketing Campaigns:** Launch targeted marketing campaigns to attract new creators to the platform, emphasizing the ease of use and quality of AI-generated comics.
 
@@ -29,7 +29,7 @@ In a comic book, a panel is a distinct segment of the page containing an illustr
 
 #### Depth
 
-***Average Number of Panels Generated/Comic/Creator***
+> Average Number of Panels Generated/Comic/Creator
 
 **AI-Assisted Story Development:** Provide AI tools that help creators expand their story ideas into full-fledged narratives, encouraging more detailed comic creation.
 
@@ -46,7 +46,7 @@ Regular Creative Challenges: Host regular challenges or competitions with themes
 
 #### Efficiency
 
-***% of Creators Satisfied with AI-Generated Outputs***
+> % of Creators Satisfied with AI-Generated Outputs
 
 **Real-time Feedback on AI Outputs:** Implement a system for creators to provide immediate feedback on AI-generated panels, allowing for quick iterations and improvements.
 
