@@ -11,7 +11,7 @@ weight: 1
 
 # ArtBasket Frontend Design Documentation
 
-### Introduction
+## Introduction
 
 This document outlines the frontend design, architecture, technology choices, and structure for the ArtBasket project. The frontend is designed to provide an intuitive and responsive user interface for exploring and interacting with the marketplace for comics.
 
